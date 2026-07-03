@@ -47,3 +47,21 @@ Inventory-Management-System-using-Fast-APIs/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
+Setup
+Create and activate virtual environment:
+
+python -m venv myenv
+myenv\Scripts\activate.ps1  # Windows PowerShell
+Install dependencies:
+
+pip install fastapi uvicorn
+Run the application:
+
+uvicorn main:app --reload
+Access the API:
+
+API: http://localhost:8000
+Interactive docs: http://localhost:8000/docs
+ReDoc: http://localhost:8000/redoc
